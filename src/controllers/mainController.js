@@ -5,7 +5,7 @@ const fs = require('fs');
 const mainController = {
     index: (req,res) => {
         
-        return res.render('home');
+        return res.render('index');
     }
 
 }
